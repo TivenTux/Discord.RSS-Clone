@@ -1,12 +1,15 @@
-# Discord.RSS
+# Discord.RSS Clone
 
 **This repository is only for users who will clone Discord.RSS files directly. The main repository is located at https://github.com/synzen/Discord.RSS.**
+
+**For the web UI, see https://github.com/synzen/Discord.RSS-Web** 
+
 
 ***
 
 Driven by the lack of comprehensive RSS bots available, I have decided to try my hand at creating one of my own. Designed with as much customization as possible for both users and bot hosters, while also (or should be) easy to understand.
 
-All documentation can be found at https://github.com/synzen/Discord.RSS-Clone/wiki.
+All documentation can be found at https://docs.discordrss.xyz/.
 
 ### Publicly Hosted Instance
 
@@ -17,7 +20,7 @@ https://discordapp.com/oauth2/authorize?client_id=268478587651358721&scope=bot&p
 
 ### Web Interface
 
-For instructions on how to get the web interface working, see https://github.com/synzen/Discord.RSS/tree/dev/src/web
+Discord.RSS also comes with a web interface! To run the web interface, see https://github.com/synzen/Discord.RSS-Web
 
 ![UI Screenshot](https://i.imgur.com/CD8mbRh.png)
 
@@ -25,7 +28,9 @@ For instructions on how to get the web interface working, see https://github.com
 
 You can deploy the bot in a simple way to Heroku using the button below. [Click here for detailed instructions](https://github.com/synzen/Discord.RSS/issues/45).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+<!-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) -->
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/synzen/Discord.RSS-Clone&template=https://github.com/synzen/Discord.RSS-Clone/tree/dev)
 
 *If you want to deploy manually you can [follow this guide](https://github.com/synzen/Discord.RSS/issues/95).*
 
